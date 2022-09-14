@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: jaxvanyang/docker-action@v1
+        uses: jaxvanyang/docker-action@main
         with:
           who-to-greet: 'Jax Van Yang'
       # Use the output from the `hello` step
