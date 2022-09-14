@@ -22,4 +22,4 @@ jobs:
         id: write-good
         uses: tomwhross/write-good-action@v1.5
       - name: Get the write-good output
-        uses: mshick/add-pr-comment@v1
+        run: echo "${{ steps.write-good.outputs.result }}"
